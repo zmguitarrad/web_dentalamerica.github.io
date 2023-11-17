@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', 'Verdana', sans-serif;
+    text-decoration: none;
+  
+}
+/* .carousel-caption{
+    margin-right: 25%;
+} */
+/* Carrusel-------- */
+.p-carrusel{
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    padding-left: 15%;
+    padding-right: 15%;
+    -webkit-line-clamp: 2;
+}
+.social{
+    background: #5bc1ac;
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-size: var(--copyright-font-size);
+  display: block;
+  margin-right: 5px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+}
+.social:hover {
+  
+    color: #EA0CD6 ;
+  }
+/* seccion nosotros--------- */
+.logos-nosotros img{
+    max-width: 100%;
+    height: 130px;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+.h2-especialidades{
+    background-color: #05A18F;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 46px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+  padding-top: 20px;
+  background-image: linear-gradient(-45deg, #05A18F  50%, fuchsia 50%);
+
+}
+.h2-nosotros {
+   
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.dental{
+    color: #05A18F;
+}
+.muelitas {
+    color: fuchsia;
+}
+.logo-educacion{
+    width: 50px;
+    height: 50pxpx;
+}
+/* tratamiento */
+.seccion-tratamiento{
+    background-color: #F5F8FC;
+}
+.foto-ortodoncia {
+    height: 200px;
+}
+.catalogo{
+    margin-top: 20px;
+}
+/* Galeria -------------------------*/
+
+.gallerys{
+    padding: 50px 0 80px 0;
+}
+.gallerys h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.swiper {
+    width: 100%;
+    opacity: 0.6;
+
+}
+.h3-gallery{
+    color: darkviolet;
+    font-weight: bold;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 270px;
+    
+}
+.swiper-slide img{
+    display: block;
+    width: 200%;
+    border-radius: 20px;
+
+  
+}
+.swiper-slide {
+    position: relative;
+    
+    
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Color del texto */
+    
+}
+
+.overlay-text h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.overlay-text p {
+    font-size: 14px;
+}
+
+.gallery-section{
+    background-color: white;
+}
+.icons{
+    padding: 0 350px 50px 350px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.icons i {
+    font-size: 25px;
+    color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i:hover{
+    color: red;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2 );
+    cursor: pointer;
+}
+@media(max-width:991){
+    body{
+        min-height: 0vh;
+    }
+    .gallerys{
+        padding: 30px;
+
+    }
+    .icons {
+        padding: 30px;
+    }
+}
+.carousel-title{
+    padding-bottom: 35px;
+}
+/* pagina ortodoncia ----*/
+.p-ortodoncia{
+   padding-left: 120px
+}
+.section-ortodoncia{
+    background-color: #F5F8FC;
+}
+/* iconos whatsapp */
+.whatsapp{
+    background-color: #25D366;
+    border: #fff;
+
+}
+/* contacto- dental america--------- */
+.h2-contacto{
+    color: #05A18F;
+}
+.contacto-social{
+    padding: 20px;
+}
+.informacion-contacto{
+    background-color: #f0f8ff;
+    border-radius: 10px;
+   
+}
+.icon-dental{
+    padding-left: 12px;
+   
+}
+.icon-social{
+    padding-bottom: 10px;
+}
+.dental-quito{
+    background-color: #F5F8FC;
+}
+iframe {
+    border-radius: 15px;
+    
+}
+.galeria-orto{
+    padding-top: 50px;
+}
